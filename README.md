@@ -1,7 +1,7 @@
 
 ## Download this demo
 ```
-git clone https://github.com/Spycsh/python-unittest-htmlTestRunner-jenkins-demo.git
+git clone https://github.com/AppamSai/jenkins-task.git
 ```
 
 `/src` is the folder where you lay your implementation code.
