@@ -1,10 +1,3 @@
-# python-unittest-htmlTestRunner-jenkins-demo
-
-This demo will show how to intergrate python unittest with Jenkins and generate elegant HTML reports on Jenkins.
-
-You can view the video explaination here [https://www.youtube.com/watch?v=VDmBfglO6YQ](https://www.youtube.com/watch?v=VDmBfglO6YQ).
-
-If you do not have experience of Jenkins, you can also view the demo with GitHub Action with this link :smirk: [https://github.com/Spycsh/python-unittest-htmlTestRunner-GitHub-Action-demo](https://github.com/Spycsh/python-unittest-htmlTestRunner-GitHub-Action-demo).
 
 ## Download this demo
 ```
@@ -26,7 +19,7 @@ In `main.py`, you can use TestRunner to generate the HTML report in the assigned
 
 2. Create a new item -> Freestyle project
 
-3. In **Source Code Management**, select git (if there is no git, please download [link](https://plugins.jenkins.io/git/) ) , and then enter your github or gitlab repository address. For example: (https://github.com/Spycsh/python-unittest-htmlTestRunner-jenkins-demo.git)
+3. In **Source Code Management**, select git (if there is no git, please download [link](https://plugins.jenkins.io/git/) ) , and then enter your github or gitlab repository address.
 
 4. In **Branch Specifier (blank for 'any')**
 write `*/main` if you only want Jenkins to poll changes on main branch. (`*master` in a deprecated way)
